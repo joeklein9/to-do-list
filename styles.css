@@ -52,9 +52,14 @@ body
     
 }
 
+#clear-tasks-btn {
+    height: 34px;
+    width:120px;
+}
+
 .tasks {
     
-    width:245px;
+    width:10x;
     height:30px;
     justify-content: center;
     font-size:medium;
