@@ -26,6 +26,11 @@ body
     flex-direction:column;
 }
 
+.app-container {
+    display:flex;
+    flex-direction:column;
+}
+
 .input-field-box {
     display: flex;
     flex-direction:row; 
@@ -45,4 +50,11 @@ body
     font-weight:lighter;
     
 }
+
+.tasks {
+    border:1px solid red;
+    width:200px;
+    height:30px;
+}
+
 
