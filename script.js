@@ -5,6 +5,7 @@ const taskInput = document.getElementById("task-input")
 const taskArray = []
 
 addTaskBtn.addEventListener("click", function () {
+    if (taskInput.value != ""){
     taskArray.push (taskInput.value)
     for (let i=0; i<taskArray.length; i++) {
         if (i === taskArray.length - 1) {
@@ -16,6 +17,7 @@ addTaskBtn.addEventListener("click", function () {
 `
         }
     }
-})
+    taskInput.value = ""
+}})
 
 

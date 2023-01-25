@@ -41,6 +41,7 @@ body
     height:30px;
     width:200px;
     border:1px solid green;
+    margin-bottom: 10px
 }
 
 #add-task-btn {
@@ -52,9 +53,13 @@ body
 }
 
 .tasks {
-    border:1px solid red;
-    width:200px;
+    
+    width:245px;
     height:30px;
+    justify-content: center;
+    font-size:medium;
+    margin: 0 auto;
+
 }
 
 
